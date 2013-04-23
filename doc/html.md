@@ -109,25 +109,6 @@ about touch icons](http://mathiasbynens.be/notes/touch-icons) by Mathias
 Bynens.
 
 
-## Modernizr
-
-HTML5 Boilerplate uses a custom build of Modernizr.
-
-[Modernizr](http://modernizr.com) is a JavaScript library which adds classes to
-the `html` element based on the results of feature test and which ensures that
-all browsers can make use of HTML5 elements (as it includes the HTML5 Shiv).
-This allows you to target parts of your CSS and JavaScript based on the
-features supported by a browser.
-
-In general, in order to keep page load times to a minimum, it's best to call
-any JavaScript at the end of the page because if a script is slow to load
-from an external server it may cause the whole page to hang. That said, the
-Modernizr script *needs* to run *before* the browser begins rendering the page,
-so that browsers lacking support for some of the new HTML5 elements are able to
-handle them properly. Therefore the Modernizr script is the only JavaScript
-file synchronously loaded at the top of the document.
-
-
 ## The content area
 
 The central part of the boilerplate template is pretty much empty. This is
