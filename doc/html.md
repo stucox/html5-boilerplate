@@ -111,13 +111,15 @@ Bynens.
 
 ## Modernizr
 
-HTML5 Boilerplate uses a custom build of Modernizr.
+HTML5 Boilerplate uses a minimal build of Modernizr.
 
 [Modernizr](http://modernizr.com) is a JavaScript library which adds classes to
 the `html` element based on the results of feature test and which ensures that
 all browsers can make use of HTML5 elements (as it includes the HTML5 Shiv).
 This allows you to target parts of your CSS and JavaScript based on the
-features supported by a browser.
+features supported by a browser. The packaged version actually contains no
+feature detects – you can create a custom build with the detects you want at
+[http://modernizr.com/download/](http://modernizr.com/download/).
 
 In general, in order to keep page load times to a minimum, it's best to call
 any JavaScript at the end of the page because if a script is slow to load
